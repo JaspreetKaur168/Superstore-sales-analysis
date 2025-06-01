@@ -2,7 +2,7 @@
 This project analyses the Superstore sales dataset using python ,SQL and Power Bi. It focuses on identifying sales trends, key products, Profit-driving categories, regional performance and discount impacts. The goal is to provide data-driven insights that help improve business strategy, inventory management and customer segmentation
 
 Project Tools
-•	Tool used: Visual studio code (VS code), Python, SQL(My sql)
+Tool used: Visual studio code (VS code), Python, SQL(My sql)
  
 
 Set up Kaggle API
