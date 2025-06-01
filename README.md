@@ -11,14 +11,14 @@ Configure Kaggle:
 Place the downloaded kaggle.json file in your local .kaggle folder.
 Use the command kaggle datasets download -d <dataset-path> to pull datasets directly into your project.
 
- Download Superstore Sales Data
-Data Source: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
-Dataset Link: superstore-dataset-final
+Download Superstore Sales Data
+1. Data Source: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
+2. Dataset Link: superstore-dataset-final
 
 Install Required Libraries and Load Data
-Libraries: Install necessary Python libraries using:
+1. Libraries: Install necessary Python libraries using:
 pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
-Loading Data: Read the data into a Pandas DataFrame for initial analysis and transformations.
+2.Loading Data: Read the data into a Pandas DataFrame for initial analysis and transformations.
 
 Explore the Data
 Goal: Make sure the structure and content of the dataset is correct and the dataset shouldn't have any missing values, duplicates or incorrect data types.
@@ -31,9 +31,9 @@ Basic Descriptive stats
 2. Analyzed skewness, outliers and distribution of key numerical variables.
 
 Load Data into MySQL 
-Set Up Connections: Connect to MySQL using sqlalchemy and load the cleaned data into each database.
-Table Creation: Set up tables in both MySQL using Python SQLAlchemy to automate table creation and data insertion.
-Verification: Run initial SQL queries to confirm that the data has been loaded accurately.
+1. Set Up Connections: Connect to MySQL using sqlalchemy and load the cleaned data into each database.
+2. Table Creation: Set up tables in both MySQL using Python SQLAlchemy to automate table creation and data insertion.
+3. Verification: Run initial SQL queries to confirm that the data has been loaded accurately.
 
 SQL Analysis: Complex Queries and Business Problem Solving
 Business Problem-Solving: Write and execute complex SQL queries to answer critical business questions, such as
@@ -53,14 +53,14 @@ Insights via Power BI Dashboard
 
 Project Publishing
 Publish the completed project on GitHub or any other version control platform, including:
-The README.md file (this document).
-Jupyter Notebooks (if applicable).
-SQL query scripts.
-Data files (if possible) or steps to access them.
+1. The README.md file (this document).
+2. Jupyter Notebooks (if applicable).
+3. SQL query scripts.
+4. Data files (if possible) or steps to access them.
 
 Requirements
-Python 3.8+
-SQL Databases: MySQL
-Python Libraries:
+1. Python 3.8+
+2. SQL Databases: MySQL
+3. Python Libraries:
 pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2
-Kaggle API Key (for data downloading)
+4. Kaggle API Key (for data downloading)
